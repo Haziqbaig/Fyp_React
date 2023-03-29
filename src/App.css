@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: local('TT Firs Neue'), url('./fonts/TT\ Firs\ Neue.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Wavehaus';
+  src: local('Wavehaus'), url('./fonts/Wavehaus-Light.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Wavehaus';
+  src: local('Wavehaus'), url('./fonts/Wavehaus-Normal.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Wavehaus';
+  src: local('Wavehaus'), url('./fonts/Wavehaus-SemiBold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Wavehaus';
+  src: local('Wavehaus'), url('./fonts/Wavehaus-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Wavehaus';
+  src: local('Wavehaus'), url('./fonts/Wavehaus-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+}
+
+.App {
+  text-align: center;
+  background-image: url('./images/bg_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-logo {
+  font-family: 'TT Firs Neue';
+  font-weight: bold;
+}
+
+.cc-btn {
+  background: linear-gradient(86.53deg, #8F6CFA 2.4%, #C4B1FF 97.83%);
+  border: 1.18616px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 6px 12px rgba(143, 108, 250, 0.39);
+  line-height: 16px !important;
+  font-family: 'Wavehaus' !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.cc-btn-2 {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  border-width: 1.07161px 1.06754px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(7.67915px);
+  font-family: 'Wavehaus' !important;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.label {
+  color: white;
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 88.5%;
+}
+
+.dashboard-card {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  border-width: 3.09592px 0px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(22.1853px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 36px;
+  min-height: 360px;
+}
+
+.dashboard-card-title {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20pt;
+  color: white;
+}
+
+.dashboard-card-subtitle {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16pt;
+  color: white;
+}
+
+.dashboard-card-data {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16pt;
+  line-height: 1.2;
+  color: white;
+}
+
+.dashboard-card-by {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  font-size: 16pt;
+  color: white;
+}
+
+.campaign-detail-data {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  backdrop-filter: blur(22.1853px);
+
+  border-radius: 12px;
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24pt;
+  color: white;
+}
+
+.campaign-detail-card {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  border-width: 2.0405px 0px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(14.6222px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+}
+
+.campaign-card-name {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16pt;
+  color: white;
+}
+
+.campaign-card-title {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14pt;
+  color: white;
+}
+
+.campaign-card-detail {
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 9pt;
+  color: white;
+}
+
+.input-label {
+
+  font-family: 'Wavehaus';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14pt;
+  color: white;
+}
+
+.create-campaign-inner {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  backdrop-filter: blur(33.8305px);
+
+  border-radius: 32px;
+}
+
+.create-campaign-title {
+  font-family: 'TT Firs Neue';
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  font-size: 20pt;
+  color: white;
+  text-transform: uppercase;
+}
+
+.form-control {
+  font-family: 'TT Firs Neue' !important;
+}
+
+.table {
+  background: linear-gradient(160.61deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.05) 101.7%);
+  backdrop-filter: blur(22.1853px);
+
+  border-radius: 14px;
+}
